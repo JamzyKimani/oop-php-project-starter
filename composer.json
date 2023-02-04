@@ -1,0 +1,33 @@
+{
+ 	"name": "jamzykimani/pengine-system",
+ 	"description": "Modern pension administration system",
+ 	"keywords": [
+		"php",
+		"pension",
+		"fund",
+		"retirement"
+	],
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"php": ">=7.1",
+		"pecee/simple-router": "^4.0",
+		"jenssegers/blade": "^1.4",
+ 	 	"vlucas/phpdotenv": "^5.4",
+ 	 	"php-di/php-di": "^6.4",
+ 	 	"catfan/medoo": "^2.1",
+ 	 	"monolog/monolog": "^2.5",
+ 	 	"firebase/php-jwt": "^6.3"
+	},
+	"require-dev": {
+
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    }
+}

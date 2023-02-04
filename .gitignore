@@ -1,0 +1,7 @@
+vendor
+.idea/
+todo.php
+storage/cache
+logs/*.log
+cache/*.php
+.env
